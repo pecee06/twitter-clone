@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .tab-style{
+        @apply flex items-center gap-3 cursor-pointer hover:bg-gray-900 px-4 rounded-lg py-2;
+    }
+    .screen-style{
+        @apply px-5 overflow-y-scroll
+    }
+    .btn{
+        @apply bg-blue-500 text-white py-2 rounded-3xl hover:bg-blue-600 font-semibold mt-3
+    }
+    .box{
+        @apply bg-gray-800 rounded-xl px-4 py-2;
+    }
+    .sub-text{
+        @apply text-sm text-gray-400;
+    }
+    .follow-btn{
+        @apply bg-gray-300 text-slate-900 py-2 rounded-2xl hover:bg-gray-500 font-semibold
+    }
+}
